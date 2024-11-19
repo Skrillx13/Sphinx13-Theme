@@ -1,0 +1,7 @@
+# -- Python Packages --
+venv/
+docs/_build/
+
+# -- Misc --
+.vscode
+**/.DS_Store

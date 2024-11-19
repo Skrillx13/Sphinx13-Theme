@@ -1,0 +1,9 @@
+[theme]
+inherit = "basic"
+pygments_style = { default = "default" }
+sidebars = []
+
+[options]
+title = "Documentation"
+logo = "_static/sphinx-logo.svg"
+logo_title = "Picture of a really goofy penguin"

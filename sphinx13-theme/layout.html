@@ -1,0 +1,14 @@
+{# Main Layout #}
+{# This file contains the layout for the Sphinx13 Theme. #}
+{%- extends "basic/layout.html" %}
+
+{% block extrahead %}
+{{ super() }}
+{%- if not embedded and pagename == root_doc %}
+<style>.related { display: none; }</style>
+{%- endif %}
+{% endblock %}
+
+{% include 'partials/header.html' %}
+
+{% include 'partials/sidebar.html' %}
